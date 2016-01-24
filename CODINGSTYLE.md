@@ -17,7 +17,7 @@ This means:
 Certain idioms which do not follow the rule are:
 
 - `(function(args){ ... })` with chained calles - to avoid right drift on those constructs, `})` should be on the same indentation level as where the constructor started.
-- `try {` and `} catch {` and `} finally {`.  Stick to the way with parantheses and stick to multi line.
+- `try {` and `} catch {` and `} finally {`.  Those idioms keep the braces in their line.  They are always on separate lines except if it fits nicely.
 - `fncall(args)` while `if (`.  This is true for all operators, except functional operators.
 - `a+1` is OK, but in more complex formulas use spaces to make them better readable.
 - `var` definitions on a single line please.  If they span multiple lines, start a new `var` declaration as soon as possible.
