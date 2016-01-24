@@ -20,7 +20,7 @@ Certain idioms which do not follow the rule are:
 - `try {` and `} catch {` and `} finally {`.  Those idioms keep the braces in their line.  They are always on separate lines except if it fits nicely.
 - `fncall(args)` while `if (`.  This is true for all operators, except functional operators.
 - `a+1` is OK, but in more complex formulas use spaces to make them better readable.
-- `var` definitions on a single line please.  If they span multiple lines, start a new `var` declaration as soon as possible.
+- `var` definitions on a single line please.  If they span multiple lines, start a new `var` declaration as soon as possible.  Exception if it looks better otherwise.
 
 To be continnued if needed.
 
